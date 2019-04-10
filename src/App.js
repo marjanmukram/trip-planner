@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import TripJoinPage from './components/join-trip/TripJoinPage';
 
 import Nav from './components/Navigation';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
