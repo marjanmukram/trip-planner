@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import TripJoinPage from './components/join-trip/TripJoinPage';
 import TripDetails from './components/trip-details/tripDetails';
+
 import Nav from './components/Navigation';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+
 import TripPlanForm from './components/trip-plan-form';
 
 class App extends Component {
   render() {
     return (
+
       <Router>
         <div>
           <nav>
@@ -35,6 +38,7 @@ class App extends Component {
           <Route path="/trip-details/" exact component={TripDetails} />
         </div>
       </Router>
+
     );
   }
 }
