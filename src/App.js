@@ -15,9 +15,9 @@ class App extends Component {
       <Router>
         <div>
           <nav>
-            <div className="nav-wrapper">
+            <div className="nav-wrapper" style={{fontFamily:'Comfortaa', backgroundColor:"black", paddingLeft:"10px" }}>
               <a href="#" className="brand-logo">
-                <Link to="/">Logo</Link>
+                <Link to="/">ShareMyTrip<i class="material-icons right">location_on</i></Link>
               </a>
               <ul id="nav-mobile" className="right hide-on-med-and-down">
                 <li>

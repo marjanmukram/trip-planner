@@ -109,7 +109,7 @@ class TripJoinPage extends Component {
               placeholder="Search location"
               onChange={e => this.setState({ location: e.target.value })}
             />
-            <button className="btn" type="submit">
+            <button className="btn" type="submit" style={{backgroundColor:"#1D73BF"}}>
               Search
             </button>
           </form>

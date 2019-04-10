@@ -59,7 +59,7 @@ class TripPlanForm extends Component {
               <div className="input-field col s8 center">
                 <a
                   class="waves-effect waves-light btn"
-                  style={{ color: 'white', backgroundColor: 'green' }}
+                  style={{ color: 'white', backgroundColor: '#1D73BF' }}
                 >
                   <i class="material-icons left">save</i>save
                 </a>

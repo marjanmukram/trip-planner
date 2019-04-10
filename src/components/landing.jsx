@@ -22,7 +22,8 @@ class Landing extends Component {
             fontSize: '5rem',
             fontWeight: '30',
             color: 'white',
-            textShadow: '2px 2px 2px #45454575'
+            textShadow: '2px 2px 2px #45454575',
+            fontFamily:'Monoton'
         }
 
         let subTitleStyle = {
@@ -30,8 +31,9 @@ class Landing extends Component {
             left: '50vw',
             top: '60vh',
             transform: 'translate(-50%, -50%)',
-            fontSize: '2rem',
+            fontSize: '3rem',
             color: 'white',
+            fontFamily:'Fredoka One'
         }
 
         let btnStyle = {
@@ -41,11 +43,14 @@ class Landing extends Component {
             transform: 'translate(-50%, -50%)',
             border: '1px solid white',
             borderRadius: '3px',
-            background: '#595959c4',
+            background: 'transparent',
             color: 'white',
             fontSize: '2rem',
             padding: '10px',
-            cursor: 'pointer'
+            cursor: 'pointer',
+            
+            overflow: "hidden",
+            outline:"none"
         }
 
         return (
