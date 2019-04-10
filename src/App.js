@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import TripPlanForm from './components/trip-plan-form'
 
 class App extends Component {
   render() {
     return (
       <div>
-        <h1>Trip planner</h1>
+        <TripPlanForm/>
       </div>
     );
   }
