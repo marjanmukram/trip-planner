@@ -4,13 +4,13 @@ import React, { Component } from 'react';
 class TripPlanForm extends Component {
 
     componentDidMount(){
-        $(document).ready(function(){
-            // $('.datepicker').datepicker();
-            // $('.chips-placeholder').chips({
-            //     placeholder: 'Enter a tag',
-            //     secondaryPlaceholder: '+Tag',
-            //   });
-          });
+        // $(document).ready(function(){
+        //     // $('.datepicker').datepicker();
+        //     // $('.chips-placeholder').chips({
+        //     //     placeholder: 'Enter a tag',
+        //     //     secondaryPlaceholder: '+Tag',
+        //     //   });
+        //   });
           
     }
     render() {

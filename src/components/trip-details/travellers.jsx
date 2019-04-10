@@ -8,7 +8,7 @@ class Travellers extends Component {
             <img src="https://lorempixel.com/100/190/ature/6" alt="" />
           </div>
           <div className="card-stacked">
-            <div className="card-content">Name : Joe</div>
+            <div className="card-content" style={{ fontFamily:'Comfortaa' }}>Traveller : Aegon Targareyan</div>
           </div>
         </div>
         <div className="card horizontal ">
@@ -16,7 +16,7 @@ class Travellers extends Component {
             <img src="https://lorempixel.com/100/190nature/6" alt="" />
           </div>
           <div className="card-stacked ">
-            <div className="card-content ">Name : Mary</div>
+            <div className="card-content " style={{ fontFamily:'Comfortaa' }}>Traveller : Sophie Turner</div>
           </div>
         </div>
         <div className="card horizontal ">
@@ -24,7 +24,7 @@ class Travellers extends Component {
             <img src="satur" alt="" />
           </div>
           <div className="card-stacked">
-            <div className="card-content">Name : Steeven</div>
+            <div className="card-content" style={{ fontFamily:'Comfortaa' }}>Traveller : Maisie William</div>
           </div>
         </div>
       </div>
