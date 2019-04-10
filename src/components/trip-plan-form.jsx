@@ -5,7 +5,12 @@ class TripPlanForm extends Component {
     componentDidMount(){
         $(document).ready(function(){
             // $('.datepicker').datepicker();
+            // $('.chips-placeholder').chips({
+            //     placeholder: 'Enter a tag',
+            //     secondaryPlaceholder: '+Tag',
+            //   });
           });
+          
     }
     render() {
     return (
@@ -49,14 +54,8 @@ class TripPlanForm extends Component {
           </div>
           <div className="row">
             <div className="input-field col s3 center">
-                <a class="waves-effect waves-light btn" style={{color:"white", backgroundColor:"blue"}}><i class="material-icons left">save</i>save</a>
+                <a class="waves-effect waves-light btn" style={{color:"white", backgroundColor:"black"}}><i class="material-icons left">save</i>save</a>
             </div>
-          </div>
-
-          <div className="row">
-          {/* <div className="chips">
-            <input class="custom-class"></input>
-          </div> */}
           </div>
         </form>
         </div>
