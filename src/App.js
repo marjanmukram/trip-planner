@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
-import TripPlanForm from './components/trip-plan-form'
+
+import TripDetails from './components/trip-details/tripDetails';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <TripPlanForm/>
+
+        <TripDetails />
+
       </div>
     );
   }
