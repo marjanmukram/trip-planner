@@ -40,6 +40,14 @@ class TripJoinPage extends Component {
     handleSearch = (e) => {
         e.preventDefault();
         e.stopPropagation();
+        // console.log(this.state.location);
+
+        let searchLocation = this.state.location;
+        let selectedTrips;
+
+        if (searchLocation) {
+            // this.state.destinations
+        }
     }
 
     render() {
@@ -48,8 +56,9 @@ class TripJoinPage extends Component {
         return (
             <div className="container">
                 <div className="search section grey lighten-4 col m6">
-                    <form>
-                        <input onClick={() => this.handleSearch()} type="text" placeholder="Search location" />
+                    <form onSubmit={(e) => { this.handleSearch(e) }}>
+                        <input type="text" placeholder="Search location" onChange={(e) => this.setState({ location: e.target.value })} />
+                        <button className="btn" type="submit">Search</button>
                     </form>
                 </div>
                 <div className="row">
