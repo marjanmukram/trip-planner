@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import $ from 'jquery';
+//import $ from 'jquery';
 
 class TripPlanForm extends Component {
+
     componentDidMount(){
         $(document).ready(function(){
             // $('.datepicker').datepicker();
@@ -33,9 +34,11 @@ class TripPlanForm extends Component {
             <div className="input-field col s11">
                 <label forName="end_date">End Date</label>
                 <input id="end_date" type="text" className="validate"/>
+
             </div>
-          </div> 
+          </div>
           <div className="row">
+
             <div className="input-field col s11">
                 <label forName="max_travellers">Max Travellers</label>
                 <input id="max_travellers" type="text" className="validate"/>
@@ -64,6 +67,7 @@ class TripPlanForm extends Component {
         <img src="https://images.unsplash.com/photo-1546656495-fc838de15e5c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=80" />
         </div> 
         </div>
+
     );
   }
 }
