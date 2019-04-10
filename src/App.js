@@ -23,7 +23,9 @@ class App extends Component {
                   <Link to="/trip-plan-form/">Plan a trip</Link>
                 </li>
                 <li>
-                  <Link to="/trip-details/">Trip Details</Link>
+                  <Link to="/trip-details/">
+                    <i className="material-icons right">perm_identity</i>
+                  </Link>
                 </li>
               </ul>
             </div>
