@@ -3,17 +3,17 @@ import React, { Component } from 'react';
 
 class TripPlanForm extends Component {
 
-    componentDidMount(){
-        // $(document).ready(function(){
-        //     // $('.datepicker').datepicker();
-        //     // $('.chips-placeholder').chips({
-        //     //     placeholder: 'Enter a tag',
-        //     //     secondaryPlaceholder: '+Tag',
-        //     //   });
-        //   });
-          
-    }
-    render() {
+  componentDidMount() {
+    // $(document).ready(function(){
+    //     // $('.datepicker').datepicker();
+    //     // $('.chips-placeholder').chips({
+    //     //     placeholder: 'Enter a tag',
+    //     //     secondaryPlaceholder: '+Tag',
+    //     //   });
+    //   });
+
+  }
+  render() {
 
     return (
       <div className="row ">
@@ -22,19 +22,19 @@ class TripPlanForm extends Component {
             <div className="row">
               <div className="input-field col s11">
                 <label forName="trip_name">Trip Name</label>
-                <input id="trip_name" type="text" className="validate" />
+                <input id="trip_name" type="text" className="validate" required />
               </div>
             </div>
             <div className="row">
               <div className="input-field col s11">
                 <label forName="start_date">Start Date</label>
-                <input id="start_date" type="text" class="datepicker" />
+                <input id="start_date" type="text" class="datepicker" required />
               </div>
             </div>
             <div className="row">
               <div className="input-field col s11">
                 <label forName="end_date">End Date</label>
-                <input id="end_date" type="text" className="validate" />
+                <input id="end_date" type="text" className="validate" required />
               </div>
             </div>
             <div className="row">
@@ -52,7 +52,7 @@ class TripPlanForm extends Component {
             <div className="row">
               <div className="input-field col s11">
                 <label forName="destination">Destination</label>
-                <input id="destination" type="text" className="validate" />
+                <input id="destination" type="text" className="validate" required />
               </div>
             </div>
             <div className="row">
