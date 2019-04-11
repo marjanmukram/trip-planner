@@ -6,7 +6,6 @@ class App extends Component {
     return (
       <div>
         <h1>Trip planner</h1>
-        <TripJoinPage />
       </div>
     );
   }
