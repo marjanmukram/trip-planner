@@ -13,15 +13,17 @@ class Trip extends Component {
         // create destination string
         let destinationString = "";
         for (let i = 0; i < destinations.length; i++) {
+            // capitalize location
+            let location = destinations[i].charAt(0).toUpperCase() + destinations[i].slice(1)
             if (i === destinations.length - 1) {
-                destinationString += destinations[i];
+                destinationString += location;
                 break;
             }
-            destinationString += destinations[i] + " to ";
+            destinationString += location + " to ";
         }
 
         // create img string
-        let imgSrc = "https://source.unsplash.com/1600x900/?" + destinations[0];
+        let imgSrc = "https://source.unsplash.com/1600x900/?random," + destinations[0];
 
         return (
 
