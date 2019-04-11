@@ -10,7 +10,7 @@ class TripJoinPage extends Component {
                     id: 1,
                     name: "My Trip to Galle",
                     planner: "John Doe",
-                    destinations: ["galle", "mirissa", "hambantota"],
+                    destinations: ["hambantota", "galle", "mirissa"],
                     startDate: "2019-04-15",
                     endDate: "2019-04-25",
                     currentTravellers: 3
@@ -78,12 +78,14 @@ class TripJoinPage extends Component {
         } else {
             this.setState({ matchingTrips: undefined })
         }
+
+        console.log(this.state.matchingTrips);
     }
 
     render() {
         //console.log(this.state);
 
-        let results = this.state.matchingTrips ? <TripList trips={this.state.matchingTrips} /> : <p>No Trips Found</p>;
+        let results = this.state.matchingTrips ? (this.state.matchingTrips.length !== 0 ? <TripList trips={this.state.matchingTrips} /> : <p>No Trips Found</p>) : <p>No Trips Found</p>;
 
         return (
             <div className="container">
